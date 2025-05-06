@@ -1,0 +1,211 @@
+body{
+    
+    overflow-x: hidden;
+}
+.btn{
+    background-color: #00a6a6;
+    color: white;
+}
+.note{
+    width: 500px;
+}
+#love{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.like{
+    text-decoration: none;
+    color: black;
+}
+.enjoy{
+    margin-left: 130px;
+    margin-top: 147px;
+}
+.lean{
+    color: rgb(65, 211, 252);
+}
+.txt{
+    font-weight: bold;
+}
+.txt1{
+    font-size: 20px;
+}
+.free{
+    width: 300px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px #ccc;
+    background-color: #fbf8ff;
+}
+.leave{
+    margin-top: 50px;
+    border-color:blue;
+    background-color: white;
+}
+.log{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#legit{
+    background-color: #bed4f4;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+.long{
+    background: linear-gradient(360deg, #1b88c5, #02a4aa);
+    color: white;
+    bottom: 200px;
+}
+.ejoor{
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+}
+.let2{
+    display: flex;
+    align-items: center;
+}
+.beg{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.are{
+    font-size: 25px;
+    font-weight: 700;
+}
+.God{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.free1{
+    width: 300px;
+    height: 0px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px #ccc;
+    background-color: #fbf8ff;
+    justify-content: center;
+    display: flex;
+    
+}
+.login{
+    background-color: #daf2f2;
+}
+.dim{
+    font-weight: lighter;
+}
+#love1{
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.page{
+    padding: 10px 25px;
+    border: none;
+    background-color: #00a6a6;
+    color: white;
+}
+.foot{
+    background-color: #b0e4e4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footie{
+    display: flex;
+    gap: 25%;
+}
+.last{
+    padding: 10px 20px;
+    background-color: #00a6a6;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+.last a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #let{
+        flex-direction: column;
+        gap: 200px;
+        justify-content: center;
+    }
+
+    #come{
+        flex-direction: column;
+    }
+
+    #sqi{
+        flex-direction: column;
+    }
+
+    #legit{
+        flex-direction: column;
+        bottom: 0;
+        align-items: center;
+    }
+    .long{
+        bottom: 0px;
+    }
+    .let4{
+        flex-direction: column;
+        gap: 200px;
+    }
+    .God{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .footie{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+        #sqi{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .let{
+            flex-direction: column;
+        }
+        #legit{
+            flex-wrap: wrap; 
+            bottom: 0px;
+        }
+        .God{
+            flex-wrap: wrap;
+        }
+        .long{
+            bottom: 0px;
+        }
+        
+        .foot{
+            flex-wrap: wrap;
+        }
+        .footie{
+            flex-wrap: wrap;
+        }
+}
