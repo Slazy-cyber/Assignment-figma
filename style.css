@@ -151,6 +151,9 @@ body{
         gap: 200px;
         justify-content: center;
     }
+    #love{
+        width: 250px;
+    }
 
     #come{
         flex-direction: column;
@@ -181,6 +184,9 @@ body{
     .footie{
         flex-direction: column;
     }
+    #love1{
+        width: 200px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -207,5 +213,8 @@ body{
         }
         .footie{
             flex-wrap: wrap;
+        }
+        #love{
+            
         }
 }
